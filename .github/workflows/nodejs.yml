@@ -46,7 +46,7 @@ jobs:
         run: sudo apt install -y gcc-aarch64-linux-gnu
 
       - name: Build native module
-        working-directory: ./minify-html-nodejs
+        working-directory: minify-html-nodejs
         shell: bash
         run: |
           npm install
